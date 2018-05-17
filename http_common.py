@@ -18,6 +18,3 @@ def url_common(method, path, body):
 
 def http_post(path, body):
     return url_common("POST", path, body)
-
-
-
